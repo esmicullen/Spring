@@ -1,0 +1,27 @@
+public class Spots {
+    String name;
+    int player;
+
+    public Spots(String name, int player) {
+        this.player = player;
+        this.name = name;
+    }
+
+    public int getPlayer {
+        return player;
+    }
+    public String getName {
+        return name;
+    }
+
+    public rule(){
+        System.out.println("경기 규칙은 해당 클래스에서 작성한다.");
+    }
+
+}
+
+실행결과
+경기 종목 : BaseBall
+선수 인원 : 5명
+경기 규칙 :
+상...속...받아...출..력...?
